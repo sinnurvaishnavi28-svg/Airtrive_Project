@@ -43,3 +43,4 @@ src/com/Airtribe/Project/**/*.java → compile all Java files recursively in you
 Explanation:
 -cp out → tells Java to look for compiled classes inside the out folder.
  com.Airtribe.Project.ui.Main → fully qualified name of your Main class (package + class name).
+his command runs your program from the command line, independent of the IDE. It's useful for testing builds or running on other machines.
